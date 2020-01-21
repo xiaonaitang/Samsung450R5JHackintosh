@@ -1,0 +1,119 @@
+5:789  3:577  Found BIOS RSDP at F0000
+5:789  0:000  Printing ACPI tables from RSDP F0000 ...
+5:789  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:789  0:000    (Xsdt: C70C9080, Rsdt: C70C9028)
+5:789  0:000    C70C9080: 'XSDT', 'LH43STAR', Rev: 1, Len: 132
+5:789  0:000    C70C9028: 'RSDT', 'LH43STAR', Rev: 1, Len: 84
+5:789  0:000    Tables in Xsdt: 12
+5:789  0:000    0. C70DA110: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+5:789  0:000        (Dsdt: C70C9198, Facs: C78CFF80, XDsdt: C70C9198, XFacs: 0)
+5:789  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495
+5:791  0:001        C78CFF80: 'FACS', Ver: 2, Len: 64
+5:791  0:000    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114
+5:791  0:000    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+5:791  0:000    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+5:791  0:000    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:791  0:000    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:791  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+5:791  0:000    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+5:791  0:000    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:791  0:000    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274
+5:791  0:000    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117
+5:791  0:000    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+5:791  0:000    Tables in Rsdt: 12
+5:791  0:000    0. C70C9110: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+5:791  0:000        (Dsdt: C70C9198, Facs: C78CFF40)
+5:791  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495
+5:792  0:001        C78CFF40: 'FACS', Ver: 0, Len: 64
+5:792  0:000    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114
+5:792  0:000    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+5:792  0:000    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+5:792  0:000    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:792  0:000    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:792  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+5:792  0:000    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+5:792  0:000    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:792  0:000    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274
+5:792  0:000    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117
+5:792  0:000    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+5:792  0:000  Found UEFI Acpi 2.0 RSDP at C70C9000
+5:792  0:000  Saving ACPI tables from RSDP C70C9000 to EFI\CLOVER\ACPI\origin ...
+5:792  0:000   C70C9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+6:516  0:723    (Xsdt: C70C9080, Rsdt: C70C9028)
+6:516  0:000    C70C9080: 'XSDT', 'LH43STAR', Rev: 1, Len: 132 -> XSDT.aml
+6:529  0:012    C70C9028: 'RSDT', 'LH43STAR', Rev: 1, Len: 84 -> RSDT.aml
+6:540  0:011    Tables in Xsdt: 12
+6:540  0:000    0. C70DA110: 'FACP', 'LH43STAR', Rev: 5, Len: 268 -> FACP.aml
+6:555  0:015        (Dsdt: C70C9198, Facs: C78CFF80, XDsdt: C70C9198, XFacs: 0)
+6:555  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495 -> DSDT.aml
+6:577  0:021        C78CFF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+6:593  0:015    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114 -> APIC.aml
+6:605  0:011    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68 -> FPDT.aml
+6:628  0:023    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85 -> MSDM.aml
+6:642  0:013    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0-Cpu0Ist.aml
+6:656  0:013    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-1-CpuPm.aml (Found hidden SSDT 4 pcs)
+6:671  0:014        * C6269A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+6:671  0:000        * C70B8618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x1_0-ApIst.aml
+6:685  0:013        * C70B7918: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1071  53 53 44 54 2F 04 00 00 01 84 50 6D 52 65 66 00 Internal length = 1071 -> SSDT-x1_1-Cpu0Cst.aml
+6:698  0:013        * C70B6D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x1_2-ApCst.aml
+6:712  0:013  
+6:712  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60 -> MCFG.aml
+6:726  0:013    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56 -> HPET.aml
+6:740  0:013    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-2-SataTabl.aml
+6:754  0:013    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274 -> SSDT-3-SgPch.aml
+6:768  0:013    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117 -> SSDT-4-OptTabl.aml
+6:782  0:014    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56 -> BGRT.aml
+6:797  0:014    Tables in Rsdt: 12
+6:797  0:000    0. C70C9110: 'FACP', 'LH43STAR', Rev: 2, Len: 132 -> RSDT-FACP.aml
+6:810  0:013        (Dsdt: C70C9198, Facs: C78CFF40)
+6:810  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495
+6:812  0:001        C78CFF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+6:825  0:013    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114
+6:825  0:000    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+6:825  0:000    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+6:825  0:000    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:825  0:000    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:825  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+6:825  0:000    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+6:825  0:000    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:825  0:000    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274
+6:825  0:000    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117
+6:825  0:000    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+6:825  0:000  Found UEFI Acpi 1.0 RSDP at C70C9000
+6:825  0:000  Printing ACPI tables from RSDP C70C9000 ...
+6:825  0:000   C70C9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:825  0:000    (Xsdt: C70C9080, Rsdt: C70C9028)
+6:825  0:000    C70C9080: 'XSDT', 'LH43STAR', Rev: 1, Len: 132
+6:825  0:000    C70C9028: 'RSDT', 'LH43STAR', Rev: 1, Len: 84
+6:825  0:000    Tables in Xsdt: 12
+6:825  0:000    0. C70DA110: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+6:825  0:000        (Dsdt: C70C9198, Facs: C78CFF80, XDsdt: C70C9198, XFacs: 0)
+6:825  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495
+6:827  0:001        C78CFF80: 'FACS', Ver: 2, Len: 64
+6:827  0:000    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114
+6:827  0:000    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+6:827  0:000    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+6:827  0:000    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:827  0:000    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:827  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+6:827  0:000    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+6:827  0:000    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:827  0:000    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274
+6:827  0:000    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117
+6:827  0:000    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+6:827  0:000    Tables in Rsdt: 12
+6:827  0:000    0. C70C9110: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+6:827  0:000        (Dsdt: C70C9198, Facs: C78CFF40)
+6:827  0:000        C70C9198: 'DSDT', 'LH43STAR', Rev: 2, Len: 69495
+6:828  0:001        C78CFF40: 'FACS', Ver: 0, Len: 64
+6:828  0:000    1. C70DA220: 'APIC', 'LH43STAR', Rev: 3, Len: 114
+6:828  0:000    2. C70DA298: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+6:828  0:000    3. C70DA2E0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+6:828  0:000    4. C70DA338: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:828  0:000    5. C70DA878: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:828  0:000    6. C70DB350: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+6:828  0:000    7. C70DB390: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+6:828  0:000    8. C70DB3C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:828  0:000    9. C70DB6E0: 'SSDT', 'SgPch', Rev: 1, Len: 2274
+6:828  0:000    10. C70DBFC8: 'SSDT', 'OptTabl', Rev: 1, Len: 5117
+6:828  0:000    11. C70DD3C8: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
