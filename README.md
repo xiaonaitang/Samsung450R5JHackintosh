@@ -15,4 +15,5 @@
 ## 参考资料
 - [intel蓝牙驱动](https://github.com/zxystd/IntelBluetoothFirmware)
 - [intel网卡驱动（暂时不能用）](https://github.com/zxystd/AppleIntelWifiAdapter)
+- [intel网卡release](https://github.com/JustTesla/macOSXIntelWiFi/releases)
 - [参考EFI](http://bbs.pcbeta.com/viewthread-1820924-1-1.html)
